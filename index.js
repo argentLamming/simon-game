@@ -27,7 +27,6 @@ $(".btn").click(e => {
         if (arraysContent()) {
             userClickedPattern = [];
             nextSequence();
-            console.log("userClickedPattern is clear");
         } else {
             gameOver();
         }
